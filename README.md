@@ -28,6 +28,7 @@ Copy `LovenseBLE_Lib.dll` into the same folder as the exe (`x64\Release\` or `x6
 
 It attaches to Roblox first, then scans for a Lovense toy. If health drops, it prints `[hit]` and vibes.
 
-Offsets in `LovensePrototype.cpp` are mostly outdated. If HP reads as -1, those need a bump.
+Offsets in `LovensePrototype.cpp` are mostly outdated. If HP reads as -1, those need a bump. 
+You can find updated offsets in this website: [OFFSETS](https://offsets.imtheo.lol)
 
 BLE reference: [Windows BLE DLL](https://developer.lovense.com/docs/game-engine-plugins/windows_ble.html#c-example)
